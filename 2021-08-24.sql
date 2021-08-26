@@ -60,3 +60,10 @@ WHERE e.deptno = d.id;
 SELECT e.name AS 이름, e.regDate AS 입사일, d.name AS 부서번호
 FROM emp e, dept d
 WHERE e.deptno = d.id;
+
+
+SELECT e.name AS `이름`, e.regDate AS `입사일`, d.name AS `부서번호`
+FROM emp e INNER JOIN dept d
+ON e.deptno = d.id
+ORDER BY `부서명`, `사원번호`;
+
