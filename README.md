@@ -103,3 +103,4 @@ SELECT * FROM article WHERE nickname != '무명' AND hit <= 50;
 
 # 작성자가 '무명' 이거나 조회수가 55 이상인 게시물을 조회
 SELECT * FROM article WHERE nickname = '무명' OR hit >=55;
+
